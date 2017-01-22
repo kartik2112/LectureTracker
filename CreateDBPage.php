@@ -21,7 +21,7 @@ else{
 require "CommonFiles/connection.php";
 require "CommonFiles/CommonConstants.php";
 
-/*$sql="create table Subject(Subj_ID int AUTO_INCREMENT, Subject_ShortForm varchar(".SUBJ_NAME_LENGTH."), Subject_Name varchar(".SUBJ_NAME_LENGTH."),primary key(Subj_ID))";
+$sql="create table Subject(Subj_ID int AUTO_INCREMENT, Subject_ShortForm varchar(".SUBJ_NAME_LENGTH."), Subject_Name varchar(".SUBJ_NAME_LENGTH."),primary key(Subj_ID))";
 if(mysqli_query($conn,$sql)){
     echo "Subject table created successfully<br/>";
 }
@@ -46,7 +46,7 @@ if(mysqli_query($conn,$sql)){
 }
 else{
     echo"Error while creating TimeTableEvent foreign key. ".mysqli_error($conn)."<br/>";
-}*/
+}
 
 
 ?>
