@@ -1,8 +1,16 @@
 <?php
+/*    
 $servername="localhost";
 $username="root";
 $password="kkksss333";
 $dbname="dbLT"; 
+*/
+
+$servername="sql100.byethost31.com";
+$username="b31_19480672";
+$password="kkksss000";
+$dbname="dbLT"; 
+
 
 
 /*$conn=mysqli_connect($servername,$username,$password);

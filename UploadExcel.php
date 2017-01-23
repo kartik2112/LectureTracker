@@ -216,7 +216,7 @@ if($uploadFlagTT){
 <!DOCTYPE html> <!-- for HTML 5 -->
 <html>
 <head>
-    <title>Import Data</title>
+    <title>Upload Excel</title>
     <?php include("CommonFiles/CommonHead.php"); ?>    
     
     
